@@ -1,0 +1,86 @@
+.help-panel {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  .help-toggle {
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .help-toggle:hover {
+    background-color: #f57c00;
+    transform: scale(1.05);
+  }
+  
+  .help-content {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .help-content h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ff9800;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .instructions p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .help-panel.open .help-toggle {
+    background-color: #f44336;
+  }
+  
+  @media (max-width: 768px) {
+    .help-panel {
+      bottom: 10px;
+      right: 10px;
+    }
+  
+    .help-content {
+      width: 400px;
+      bottom: 70px;
+      right: 10px;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .help-toggle {
+      width: 40px;
+      height: 40px;
+      font-size: 1.4rem;
+    }
+  
+    .help-content {
+      width: 300px;
+      bottom: 60px;
+      right: 0px;
+      padding: 15px;
+    }
+  }
