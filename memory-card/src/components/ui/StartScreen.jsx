@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { useGame } from '../../context/GameContext';
 import { DIFFICULTY } from '../../context/GameConstants';

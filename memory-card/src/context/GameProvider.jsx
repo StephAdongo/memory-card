@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { characters} from '../data/characters';
 import { DIFFICULTY } from './GameConstants';

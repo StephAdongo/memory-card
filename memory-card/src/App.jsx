@@ -1,3 +1,4 @@
+import React from 'react';
 import {GameProvider} from './context/GameProvider';
 import GamePage from './pages/GamePage';
 import './App.css';

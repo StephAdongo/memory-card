@@ -1,3 +1,4 @@
+import React from 'react';
 import { useGame } from '../context/GameContext';
 import Header from '../components/layout/Header';
 import GameBoard from '../components/game/GameBoard';
