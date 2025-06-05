@@ -3,16 +3,26 @@
 
  ## Game features
   -The game has three difficulty levels:Easy,   Medium and Hard.
+  
   -Character cards from the TV show
+  
   -Score tracking and best score memory
+  
   -Responsive design
+  
   -Animated card flips and transitions
+  
 
  ## Technology used
  -React
+ 
  -Vite
+ 
  -CSS3
+ 
  -React context API
+ 
  -Javascript
+ 
  
 
